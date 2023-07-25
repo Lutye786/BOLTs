@@ -213,7 +213,7 @@
      }
  
  .cbox1{
-     flex: 25%;
+     flex: 100%;
      text-align:center;
      color: #ffffff;
      display:inline-block;
