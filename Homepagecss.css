@@ -196,7 +196,10 @@
     * {
      box-sizing: border-box;
    }
-   
+     video {
+    width: 100%;
+    height: auto;
+  }
  
  .dcard1{
      display: flex;
