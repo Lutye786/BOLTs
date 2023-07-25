@@ -219,6 +219,11 @@
      margin: 0 auto;
      width:99.9%;
      }
+.reponsive{
+    width:99.9%;
+    max-width: 1640px;
+    height: auto;
+}
  
  .cbox1:hover {
    padding: 5px;
