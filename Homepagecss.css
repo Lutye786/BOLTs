@@ -221,12 +221,9 @@
      padding-left: 50px;
      margin: 0 auto;
      width:99.9%;
+     height:auto
      }
-.reponsive{
-    width:99.9%;
-    max-width: 1640px;
-    height: auto;
-}
+
  
  .cbox1:hover {
    padding: 5px;
@@ -234,9 +231,9 @@
    transition: 0.4s;
  }
  
-           @media (max-width: 800px) {
+           @media (max-width: 1640px) {
              .cbox1 {
-               flex: 50%;
+               flex: 100%;
              }
            }
  
