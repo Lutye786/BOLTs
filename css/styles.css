@@ -380,18 +380,25 @@ select:disabled {
   display: none !important;
 }
 
-button,
-[type=button],
-[type=reset],
-[type=submit] {
-  -webkit-appearance: button;
+#send-btn {
+  width: 150px;
+  height: 60px;
+  border-radius: 4px;
+  background-color:#ffc800;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+
+
 }
-button:not(:disabled),
-[type=button]:not(:disabled),
-[type=reset]:not(:disabled),
-[type=submit]:not(:disabled) {
-  cursor: pointer;
+
+#send-btn:hover{
+  cursor:pointer ;
+  background-color:#5c636a;
+  transition: all 0.4s ease out;
 }
+
 
 ::-moz-focus-inner {
   padding: 0;
