@@ -360,26 +360,6 @@ textarea {
   line-height: inherit;
 }
 
-button,
-select {
-  text-transform: none;
-}
-
-[role=button] {
-  cursor: pointer;
-}
-
-select {
-  word-wrap: normal;
-}
-select:disabled {
-  opacity: 1;
-}
-
-[list]:not([type=date]):not([type=datetime-local]):not([type=month]):not([type=week]):not([type=time])::-webkit-calendar-picker-indicator {
-  display: none !important;
-}
-
 #send-btn {
   width: 150px;
   height: 60px;
@@ -389,8 +369,6 @@ select:disabled {
   border: none;
   color: #fff;
   font-size: 1rem;
-
-
 }
 
 #send-btn:hover{
