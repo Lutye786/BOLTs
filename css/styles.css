@@ -2,7 +2,7 @@
 
 .text9{
   text-size:20px;
-  text-color:#ffc800;
+  text-color:#ffc800 !important;
 }
 
 :root {
