@@ -2,7 +2,8 @@
 
 .text9{
   text-size:20px;
-  text-color:#ffc800 !important;
+  --bs-text-opacity: 1;
+  color: #ffc800 !important;
 }
 
 :root {
